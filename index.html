@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/bitzero.jpg" sizes="192x192" type="image/jpg">
+    <link rel="stylesheet" href="npmdotzero.css">
+    <title>BitZero | Decentralized Protocol</title>
+    <meta name="description" content="BitZero [BIT] A crypto token inspired by binary computation.">
+    <meta name="keywords" content="BitZero, Bitstake, BitZero Community, $BIT, Crypto">
+    <meta name="author" content="Bitzero Community">
+    <meta property="og:title" content="Bitzero Community">
+    <meta property="og:description" content="BitZero [BIT] A crypto token inspired by binary computation.">
+    <meta name="twitter:title" content="Bitzero Community">
+    <meta name="twitter:image" content="/images/bitzero.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="brand">
+        <div>
+            <div class="brand-name">BitZero</div>
+            <div class="brand-tag">$BIT · $NaN</div>
+        </div>
+    </div>
+    <nav class="nav-pills">
+        <button class="nav-btn" disabled onclick="window.location.href='/bitstake/'">
+            <span style="width:7px;height:7px;background:var(--violet);display:inline-block;"></span>
+            BitStake
+            <svg width="9" height="9" viewBox="0 0 9 9" fill="none"><path d="M1.5 7.5L7.5 1.5M7.5 1.5H3.5M7.5 1.5V5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <button class="nav-btn" disabled onclick="window.location.href='https:'">
+            <span style="width:7px;height:7px;background:var(--cyan);display:inline-block;"></span>
+            BitNode
+            <svg width="9" height="9" viewBox="0 0 9 9" fill="none"><path d="M1.5 7.5L7.5 1.5M7.5 1.5H3.5M7.5 1.5V5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <button class="nav-btn" disabled onclick="window.location.href='https:'">
+            <span style="width:7px;height:7px;background:var(--lime);display:inline-block;"></span>
+            Docs
+            <svg width="9" height="9" viewBox="0 0 9 9" fill="none"><path d="M1.5 7.5L7.5 1.5M7.5 1.5H3.5M7.5 1.5V5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+    </nav>
+</header>
+
+<div class="page-wrap">
+    <div class="hero-card">
+        <div class="hero-text">
+            <h1>Bit<span>[1]</span><br>Zero<span>[0]</span></h1>
+            <p>A crypto token inspired by binary computation. The core of all digital logic — built on Tempo, governed by community.</p>
+            <div class="hero-badges">
+                <span class="hero-badge" style="color:var(--violet);border:1.5px solid var(--violet);">Decentralized</span>
+                <span class="hero-badge" style="color:var(--cyan);border:1.5px solid var(--cyan);">Open Source</span>
+                <span class="hero-badge" style="color:var(--lime);border:1.5px solid var(--lime);">Community Governed</span>
+            </div>
+        </div>
+        <div class="hero-art" aria-hidden="true" id="heroArt" style="cursor:pointer;">
+    <div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha p"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+    <div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div><div class="ha e"></div>
+</div>
+    </div>
+
+    <div class="ticker-bar">
+        <span class="ticker-inner">
+            &nbsp;&nbsp;▶&nbsp;&nbsp;00100100&nbsp;&nbsp;01000010&nbsp;&nbsp;01001001&nbsp;&nbsp;01010100&nbsp;&nbsp;10110010&nbsp;&nbsp;01001011&nbsp;&nbsp;11010001&nbsp;&nbsp;00101110&nbsp;&nbsp;&nbsp;&nbsp;
+            ▶&nbsp;&nbsp;00100100&nbsp;&nbsp;01000010&nbsp;&nbsp;01001001&nbsp;&nbsp;01010100&nbsp;&nbsp;10110010&nbsp;&nbsp;01001011&nbsp;&nbsp;11010001&nbsp;&nbsp;00101110&nbsp;&nbsp;
+        </span>
+    </div>
+
+    <div class="grid-2">
+
+        <div class="card">
+            <div class="card-bar">
+                <div class="card-bar-title">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><rect x="1" y="7" width="2" height="4" fill="currentColor"/><rect x="5" y="4" width="2" height="7" fill="currentColor"/><rect x="9" y="1" width="2" height="10" fill="currentColor"/></svg>
+                    C:\DATA\TOKENOMICS
+                </div>
+                <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+            </div>
+            <div class="card-body">
+                <div class="stat-row">
+                    <span class="stat-label"><span class="stat-icon">ℹ</span>Name</span>
+                    <span class="stat-val">BitZero</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><span class="stat-icon">#</span>Ticker</span>
+                    <span class="stat-val">$BIT</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><span class="stat-icon">⛓</span>Chain</span>
+                    <span class="stat-val">Tempo</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><span class="stat-icon">◎</span>Circ Supply</span>
+                    <span class="stat-val">#</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><span class="stat-icon">Σ</span>Total Supply</span>
+                    <span class="stat-val">100M</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><span class="stat-icon">📄</span>Contract</span>
+                    <a href="javascript:void(0)" onclick="openContractModal()" class="stat-val accent">[ View ]</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bar">
+                <div class="card-bar-title">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1 3h4v6H1zM7 5h4v4H7z" fill="currentColor" opacity=".6"/><line x1="3" y1="1" x2="9" y2="1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    C:\SYSTEM\ROADMAP
+                </div>
+                <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+            </div>
+            <div class="card-body" style="display:flex;flex-direction:column;gap:14px;">
+                <div class="phase-block ph1">
+                    <div class="phase-title">
+                        _Phase<span class="phase-num" style="background:var(--cyan);color:var(--black);">I</span> 
+                    </div>
+                    <ul class="phase-list">
+                        <li>Deploy Token <a style="background:var(--purple);color:var(--white);">< _CURRENT </a></li>
+                        <li>Launch Presale</li>
+                    </ul>
+                </div>
+                <div class="phase-block ph2">
+                    <div class="phase-title">
+                        _Phase<span class="phase-num">II</span>
+                    </div>
+                    <ul class="phase-list">
+                        <li>Initial Community Building</li>
+                        <li>Deploy BitStake</li>
+                        <li>Deploy BitNode</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-2">
+
+        <div class="card">
+            <div class="card-bar">
+                <div class="card-bar-title">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M4.5 4.5C4.5 3.67 5.17 3 6 3s1.5.67 1.5 1.5C7.5 6 6 6 6 7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="6" cy="9.5" r=".5" fill="currentColor"/></svg>
+                    C:\HELP\FAQ
+                </div>
+                <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+            </div>
+            <div class="card-body">
+                <details class="faq" open>
+                    <summary>
+                        <svg width="11" height="11" viewBox="0 0 11 11" fill="none" style="flex-shrink:0;"><path d="M1 2h9M1 5.5h9M1 9h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                        What is BitZero?
+                        <span class="faq-arrow">▶</span>
+                    </summary>
+                    <div class="faq-body">BitZero [BIT] is a crypto token inspired by binary computation — built on the concept of bit [1] and zero [0], the core of all digital logic. BitZero represents efficiency, intelligence, and the infinite potential of decentralized computing.</div>
+                </details>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bar">
+                <div class="card-bar-title">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><rect x="1" y="1" width="10" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M3 4h6M3 6h6M3 8h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+                    C:\TOKEN\CONTRACT
+                </div>
+                <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+            </div>
+            <div class="card-body">
+                <p style="font-family:var(--font-mono);font-size:.68rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(0,0,0,.4);margin-bottom:10px;">Contract Address:</p>
+                <div class="contract-box">
+                    <a href="https://explore.tempo.xyz/address/0xdce690786f460261a9177a0002738a5343d5add4" target="_blank" id="contractText">0xdce690786f460261a9177a0002738a5343d5add4</a>
+                </div>
+                <button class="copy-btn" onclick="copyContract()">
+                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><rect x="1" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M3 3V2a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H8" stroke="currentColor" stroke-width="1.3"/></svg>
+                    Copy Address
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-bar">
+            <div class="card-bar-title">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><rect x="1" y="1" width="4" height="4" fill="currentColor" opacity=".8"/><rect x="7" y="1" width="4" height="4" fill="currentColor" opacity=".8"/><rect x="1" y="7" width="4" height="4" fill="currentColor" opacity=".8"/><rect x="7" y="7" width="4" height="4" fill="currentColor" opacity=".8"/></svg>
+                C:\DATA\ECOSYSTEM
+            </div>
+            <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+        </div>
+        <div class="card-body">
+            <div class="section-title">BitZero Ecosystem</div>
+            <div class="eco-grid">
+
+                <a class="eco-card" href="../bitstake/" target="_blank">
+                    <div class="eco-card-top stake">
+                        <div class="pixel-icon" style="grid-template-columns:repeat(7,11px);grid-template-rows:repeat(7,11px);">
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.95"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:#fff;opacity:.8"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.8"></span>
+                            <span style="background:#fff;opacity:.7"></span><span style="background:#fff;opacity:.85"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.85"></span><span style="background:#fff;opacity:.7"></span>
+                            <span style="background:#fff;opacity:.8"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.8"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.95"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                        </div>
+                    </div>
+                    <div class="eco-card-body">
+                        <div class="eco-card-name">BitStake</div>
+                        <div class="eco-card-desc">Stake $BIT and earn rewards based on a defined emission schedule.</div>
+                        <span class="eco-card-tag">▶ yield</span>
+                    </div>
+                </a>
+
+                <a class="eco-card" href="../bitnode/" target="_blank">
+                    <div class="eco-card-top node">
+                        <div class="pixel-icon" style="grid-template-columns:repeat(7,11px);grid-template-rows:repeat(7,11px);">
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.8"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.55"></span><span style="background:transparent"></span><span style="background:#000;opacity:.55"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.55"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.55"></span><span style="background:#000;opacity:.8"></span>
+                            <span style="background:#000;opacity:.8"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.45"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.8"></span>
+                            <span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.55"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.55"></span><span style="background:#000;opacity:.8"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.55"></span><span style="background:transparent"></span><span style="background:#000;opacity:.55"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.8"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                        </div>
+                    </div>
+                    <div class="eco-card-body">
+                        <div class="eco-card-name">BitNode</div>
+                        <div class="eco-card-desc">Manage node operations and deposits $BIT in the BitNode.</div>
+                        <span class="eco-card-tag">▶ tools</span>
+                    </div>
+                </a>
+
+                <a class="eco-card" href="..\bitdao\" target="_blank">
+                    <div class="eco-card-top dao">
+                        <div class="pixel-icon" style="grid-template-columns:repeat(7,11px);grid-template-rows:repeat(7,11px);">
+                            <span style="background:transparent"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.9"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.9"></span><span style="background:transparent"></span>
+                            <span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span>
+                            <span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.9"></span><span style="background:transparent"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.9"></span>
+                            <span style="background:#fff;opacity:.5"></span><span style="background:#fff;opacity:.7"></span><span style="background:#fff;opacity:.75"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.75"></span><span style="background:#fff;opacity:.7"></span><span style="background:#fff;opacity:.5"></span>
+                            <span style="background:#fff;opacity:.7"></span><span style="background:#fff;opacity:.8"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.8"></span><span style="background:#fff;opacity:.7"></span>
+                            <span style="background:#fff;opacity:.7"></span><span style="background:#fff;opacity:.8"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff"></span><span style="background:#fff;opacity:.9"></span><span style="background:#fff;opacity:.8"></span><span style="background:#fff;opacity:.7"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                        </div>
+                    </div>
+                    <div class="eco-card-body">
+                        <div class="eco-card-name">BitDAO</div>
+                        <div class="eco-card-desc">Governance — proposals, voting, and treasury controlled via timelock.</div>
+                        <span class="eco-card-tag">▶ gov</span>
+                    </div>
+                </a>
+
+                <details>
+                    <summary class="section-title">▶ More</summary>
+                <a class="eco-card" href="binerconvert.html" target="_blank">
+                    <div class="eco-card-top dao">
+                        <div class="pixel-icon" style="grid-template-columns:repeat(7,11px);grid-template-rows:repeat(7,11px);">
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                            <span style="background:transparent"></span><span style="background:#000;opacity:.8"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.8"></span><span style="background:transparent"></span>
+                            <span style="background:transparent"></span><span style="background:#000;opacity:.8"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:#000;opacity:.8"></span><span style="background:transparent"></span>
+                            <span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span>
+                            <span style="background:#000;opacity:.9"></span><span style="background:transparent"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.9"></span><span style="background:transparent"></span><span style="background:#000;opacity:.9"></span>
+                            <span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.9"></span><span style="background:#000"></span><span style="background:#000;opacity:.9"></span><span style="background:#000;opacity:.8"></span><span style="background:#000;opacity:.9"></span>
+                            <span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span><span style="background:transparent"></span>
+                        </div>
+                    </div>
+                    <div class="eco-card-body">
+                        <div class="eco-card-name">BinerConvert</div>
+                        <div class="eco-card-desc">Encode text → binary  |  Decode binary → text</div>
+                        <span class="eco-card-tag">▶ tools</span>
+                    </div>
+                </a></details>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-bar">
+            <div class="card-bar-title">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 2h5l3 3v5H2V2z" stroke="currentColor" stroke-width="1.3"/><path d="M7 2v3h3" stroke="currentColor" stroke-width="1.3"/></svg>
+                C:\DATA\ABOUT
+            </div>
+            <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+        </div>
+        <div class="card-body">
+            <div class="section-title">Resources</div>
+            <div class="doc-grid">
+                <a class="doc-card" href="/" target="_blank">
+                    <div class="doc-card-icon">
+                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="5"  y="28" width="11" height="20" fill="var(--purple)"/>
+                            <rect x="22" y="16" width="11" height="32" fill="var(--violet)"/>
+                            <rect x="39" y="6"  width="11" height="42" fill="var(--purple)" opacity=".55"/>
+                            <rect x="3"  y="48" width="49" height="2"  fill="var(--black)"/>
+                        </svg>
+                    </div>
+                    <div class="doc-card-label">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"><polyline points="3 7 6 4.5 3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        Tokenomics [Soon]
+                    </div>
+                </a>
+                <a class="doc-card" href="javascript:void(0)" onclick="openContractModal()">
+                    <div class="doc-card-icon">
+                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="4"  width="34" height="46" rx="2" fill="var(--cream)" stroke="var(--black)" stroke-width="1.5"/>
+                            <rect x="16" y="14" width="22" height="3"  rx="1" fill="var(--purple)"/>
+                            <rect x="16" y="22" width="22" height="2"  rx="1" fill="var(--black)" opacity=".25"/>
+                            <rect x="16" y="28" width="16" height="2"  rx="1" fill="var(--black)" opacity=".25"/>
+                            <rect x="16" y="34" width="18" height="2"  rx="1" fill="var(--black)" opacity=".25"/>
+                        </svg>
+                    </div>
+                    <div class="doc-card-label">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"><polyline points="3 7 6 4.5 3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        Contract
+                    </div>
+                </a>
+                <a class="doc-card" href="/" target="_blank">
+                    <div class="doc-card-icon">
+                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="5"  y="5" width="19" height="44" rx="1" fill="var(--purple)" opacity=".85"/>
+                            <rect x="30" y="5" width="19" height="44" rx="1" fill="var(--violet)" opacity=".85"/>
+                            <rect x="24" y="5" width="6"  height="44" fill="var(--black)" opacity=".18"/>
+                            <rect x="9"  y="15" width="11" height="2" rx="1" fill="white" opacity=".6"/>
+                            <rect x="9"  y="21" width="11" height="2" rx="1" fill="white" opacity=".38"/>
+                            <rect x="34" y="15" width="11" height="2" rx="1" fill="white" opacity=".6"/>
+                            <rect x="34" y="21" width="11" height="2" rx="1" fill="white" opacity=".38"/>
+                        </svg>
+                    </div>
+                    <div class="doc-card-label">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"><polyline points="3 7 6 4.5 3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        Whitepaper [Soon]
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-bar">
+            <div class="card-bar-title">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><circle cx="8.5" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M1 10c0-1.66 1.34-3 3-3h4c1.66 0 3 1.34 3 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+                C:\SYSTEM\COMMUNITY
+            </div>
+            <div class="cb-dots"><div class="cb-dot r"></div><div class="cb-dot y"></div><div class="cb-dot g"></div></div>
+        </div>
+        <div class="card-body">
+            <div class="section-title">Join Community</div>
+            <div class="social-grid">
+
+                <a class="social-btn gh" href="https://github.com/bitzeroonchain" target="_blank">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--black)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                    </svg>
+                    <span class="social-label">GitHub</span>
+                </a>
+
+                <a class="social-btn tw" href="https://x.com/BitZer0xOnchain" target="_blank">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="var(--black)">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    <span class="social-label">X (Twitter)</span>
+                </a>
+
+                <a class="social-btn tg" href="https://t.me/bitzeroann" target="_blank">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0088cc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"/>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                    </svg>
+                    <span class="social-label">Telegram</span>
+                </a>
+
+                <a class="social-btn dc" href="https://discord.gg/nFw727Wp" target="_blank">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="#5865f2">
+                        <path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026c.462-.62.874-1.275 1.226-1.963.021-.04.001-.088-.041-.104a13.201 13.201 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.028z"/>
+                    </svg>
+                    <span class="social-label">Discord</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    <div class="footer-brand">
+        <span class="fdot" style="background:var(--purple);"></span>
+        BitZero
+    </div>
+    <div>Powered by BitZero · Built on Tempo · 2026</div>
+    <div style="display:flex;align-items:center;gap:6px;">
+        <span class="fdot" style="background:var(--cyan);"></span>
+        Decentralized Protocol
+    </div>
+</footer>
+
+<div id="contractModal" style="
+    display:none;
+    position:fixed;top:0;left:0;width:100%;height:100%;
+    background:rgba(0,0,0,0.75);
+    z-index:9999;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    box-sizing:border-box;
+">
+  <div style="
+    background:var(--white,#f5f0e8);
+    border:2px solid var(--black,#0a0a0a);
+    box-shadow:7px 7px 0 var(--purple,#7c3aed);
+    width:100%;
+    max-width:860px;
+    max-height:90vh;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+  ">
+    <div style="
+      background:var(--black,#0a0a0a);
+      color:#fff;
+      padding:8px 16px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-shrink:0;
+    ">
+      <span style="font-family:'Space Mono',monospace;font-size:.7rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;display:flex;align-items:center;gap:8px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><rect x="1" y="1" width="10" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M3 4h6M3 6h6M3 8h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        C:\smart-contract\bitzero.sol
+      </span>
+      <div style="display:flex;align-items:center;gap:12px;">
+        <button onclick="copySource()" id="copySourceBtn" style="
+          font-family:'Space Mono',monospace;
+          font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;
+          padding:4px 12px;
+          background:var(--purple,#7c3aed);
+          border:1.5px solid rgba(255,255,255,.4);
+          color:#fff;cursor:pointer;
+          display:flex;align-items:center;gap:5px;
+        ">
+          <svg width="10" height="10" viewBox="0 0 11 11" fill="none"><rect x="1" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M3 3V2a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H8" stroke="currentColor" stroke-width="1.3"/></svg>
+          Copy Source
+        </button>
+        <button onclick="closeContractModal()" style="
+          font-family:'Space Mono',monospace;
+          font-size:.75rem;font-weight:700;
+          background:transparent;border:none;color:#fff;cursor:pointer;
+          padding:2px 6px;
+          line-height:1;
+        " title="Close">✕</button>
+      </div>
+    </div>
+    <div style="
+      background:#1a1a2e;
+      border-bottom:2px solid var(--black,#0a0a0a);
+      padding:6px 16px;
+      display:flex;align-items:center;gap:14px;
+      flex-shrink:0;
+    ">
+      <span style="font-family:'Space Mono',monospace;font-size:.62rem;color:#84cc16;font-weight:700;">Solidity ^0.8.27</span>
+      <span style="font-family:'Space Mono',monospace;font-size:.62rem;color:rgba(255,255,255,.35);">|</span>
+      <span style="font-family:'Space Mono',monospace;font-size:.62rem;color:rgba(255,255,255,.45);">bitzero.sol</span>
+      <span style="font-family:'Space Mono',monospace;font-size:.62rem;color:rgba(255,255,255,.3);margin-left:auto;">
+        <a href="https://explore.tempo.xyz/address/0xdce690786f460261a9177a0002738a5343d5add4" target="_blank" style="color:#a855f7;text-decoration:none;">0xdce6...add4 ↗</a>
+      </span>
+    </div>
+
+    <div style="overflow-y:auto;flex:1;background:#0d0d1a;" id="contractCodeWrap">
+      <pre id="contractSourceCode" style="
+        margin:0;
+        padding:20px 20px 20px 0;
+        font-family:'Space Mono',monospace;
+        font-size:.75rem;
+        line-height:1.75;
+        color:#e2e8f0;
+        overflow-x:auto;
+        white-space:pre;
+        tab-size:4;
+        counter-reset:line;
+      "></pre>
+    </div>
+  </div>
+</div>
+
+<script>
+  const SOLIDITY_SOURCE = `// SPDX-License-Identifier: MIT
+// Compatible with OpenZeppelin Contracts ^5.4.0
+pragma solidity ^0.8.27;
+
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract BitZero is ERC20 {
+    constructor(address recipient) ERC20("BitZero", "BIT") {
+        _mint(recipient, 100000000 * 10 ** decimals());
+    }
+}`;
+
+  function highlight(src) {
+    const lines = src.split('\n');
+    return lines.map((raw, i) => {
+      let line = raw
+        .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+        .replace(/(\/\/.*$)/g, '<span class="sol-cmt">$1</span>')
+        .replace(/(\/\*[\s\S]*?\*\/)/g, '<span class="sol-cmt">$1</span>');
+
+      if (!line.includes('sol-cmt')) {
+        line = line
+          .replace(/("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*')/g, '<span class="sol-str">$1</span>')
+          .replace(/\b(0x[0-9a-fA-F_]+|\d[\d_]*(?:\.\d+)?(?:e\d+)?)\b/g, '<span class="sol-num">$1</span>')
+          .replace(/\b(pragma|import|contract|interface|library|abstract|is|using|for|struct|enum|event|error|modifier|function|constructor|returns|return|if|else|while|for|do|break|continue|assembly|emit|new|delete|try|catch|revert|require|assert|override|virtual|public|private|internal|external|pure|view|payable|nonReentrant|indexed|memory|storage|calldata|constant|immutable|mapping|address|bool|string|bytes|uint|int)\b/g, '<span class="sol-kw">$1</span>')
+          .replace(/\b(uint\d*|int\d*|bytes\d*|bool|address|string)\b/g, '<span class="sol-type">$1</span>')
+          .replace(/\b(public|private|internal|external|pure|view|payable|override|virtual|indexed|memory|storage|calldata|constant|immutable)\b/g, '<span class="sol-mod">$1</span>')
+          .replace(/\b(emit\s+)(\w+)/g, '$1<span class="sol-ev">$2</span>')
+          .replace(/\b(event\s+)(\w+)/g, '$1<span class="sol-ev">$2</span>')
+          .replace(/\b(function\s+)(\w+)/g, '$1<span class="sol-fn">$2</span>')
+          .replace(/\b(constructor)\b/g,'<span class="sol-fn">$1</span>');
+      }
+
+      const ln = `<span class="sol-ln">${i + 1}</span>`;
+      return `<span style="display:inline-flex;width:100%;">${ln}${line}</span>`;
+    }).join('\n');
+  }
+
+  function openContractModal() {
+    const modal = document.getElementById('contractModal');
+    const pre   = document.getElementById('contractSourceCode');
+    if (!pre.innerHTML) {
+      pre.innerHTML = highlight(SOLIDITY_SOURCE);
+    }
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeContractModal() {
+    document.getElementById('contractModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('contractModal').addEventListener('click', function(e) {
+    if (e.target === this) closeContractModal();
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeContractModal();
+  });
+
+  function copySource() {
+    navigator.clipboard.writeText(SOLIDITY_SOURCE).then(() => {
+      const btn = document.getElementById('copySourceBtn');
+      const orig = btn.innerHTML;
+      btn.innerHTML = '✓ Copied!';
+      btn.style.background = '#84cc16';
+      btn.style.color = '#000';
+      setTimeout(() => { btn.innerHTML = orig; btn.style.background = 'var(--purple,#7c3aed)'; btn.style.color = '#fff'; }, 2000);
+    });
+  }
+</script>
+
+<script>
+    function copyContract() {
+        const addr = document.getElementById('contractText').textContent;
+        navigator.clipboard.writeText(addr).then(() => {
+            const btn = document.querySelector('.copy-btn');
+            const orig = btn.innerHTML;
+            btn.innerHTML = '✓ Copied!';
+            btn.style.background = 'var(--lime)';
+            btn.style.color = 'var(--black)';
+            setTimeout(() => {
+                btn.innerHTML = orig;
+                btn.style.background = 'var(--purple)';
+                btn.style.color = '#fff';
+            }, 2000);
+        });
+    }
+    const art = document.getElementById('heroArt');
+  art.addEventListener('click', () => {
+    art.classList.remove('animate');
+    void art.offsetWidth; /* reset */
+    art.classList.add('animate');
+  });
+  art.addEventListener('animationend', () => {
+    art.classList.remove('animate');
+  }, { once: false });
+
+</script>
+</body>
+</html>
